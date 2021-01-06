@@ -1,3 +1,26 @@
 :root{
-    --primary-color : #6C63FF;
+    --primary-color : #384E77;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    width: 100%;
+    
+}
+.title-txt{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.translate-img{
+    max-width: 400px;
+    padding: 2rem;
+    margin: 4rem 2rem;
+    
 }
