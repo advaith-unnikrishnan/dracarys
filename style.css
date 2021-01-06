@@ -1,5 +1,6 @@
 :root{
-    --primary-color : #384E77;
+    --primary-color : #6247AA;
+    --secondary-color: #A06CD5;
 }
 
 *{
@@ -18,9 +19,59 @@ header{
     text-align: center;
 }
 
+/* main content */
+main{
+    display: flex;
+}
+
+
+/* image */
 .translate-img{
     max-width: 400px;
-    padding: 2rem;
-    margin: 4rem 2rem;
-    
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 4rem;
+}
+
+/* process section */
+.section-process{
+    flex-direction: column;
+}
+
+textarea,button{
+    outline: none;
+    border-style: none;
+}
+
+#input{
+    display: block;    
+    width: 700px;
+    height: 10vh;
+    margin: 2rem 4rem;
+    padding: 1rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+}
+
+#translate-btn{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.section-process h2{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#output{
+    border: 2px solid var(--secondary-color);
+    width: 700px;
+    height: 10vh;
+    margin: 2rem 4rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
