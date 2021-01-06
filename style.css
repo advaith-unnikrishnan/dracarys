@@ -75,3 +75,34 @@ textarea,button{
     padding: 1rem;
     border-radius: 1rem;
 }
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.footer h1{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer p{
+    display: block;
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+.social-links{
+    display:flex;
+    max-width: 400px;
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
