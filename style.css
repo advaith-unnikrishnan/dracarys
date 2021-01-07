@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 :root{
     --primary-color : #6247AA;
     --secondary-color: #A06CD5;
@@ -6,6 +8,10 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
 }
 /* header */
 header{
@@ -85,7 +91,7 @@ textarea,button{
 .footer h1{
     display: block;
     text-align: center;
-    padding: 1rem;
+    padding: 0rem 1rem;
 }
 
 .footer p{
@@ -95,14 +101,3 @@ textarea,button{
     margin: auto;
 }
 
-.social-links{
-    display:flex;
-    max-width: 400px;
-    margin: auto;
-    justify-content: space-around;
-    list-style: none;
-}
-.links{
-    text-decoration: none;
-    color: white;
-}
