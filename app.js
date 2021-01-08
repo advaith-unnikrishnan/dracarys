@@ -2,7 +2,7 @@ var input = document.querySelector("#input")
 var btn = document.querySelector("#translate-btn")
 var output = document.querySelector("#output")
 
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/valyrian.json"
 
 function getTranslateUrl(text){
     return serverURL+"?text="+text
@@ -28,6 +28,3 @@ btn.addEventListener("click" , ()=>{
 
 
 
-
-
-// https://api.funtranslations.com/translate/valyrian.json?text=Fire is blood
