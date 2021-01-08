@@ -101,3 +101,17 @@ textarea,button{
     margin: auto;
 }
 
+
+@media screen and (max-width:600px){
+    main{
+        flex-direction: column;
+    }
+
+    #input{
+        width: 400px;
+    }
+
+    #output{
+        width: 400px;
+    }
+}
