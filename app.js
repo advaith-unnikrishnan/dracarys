@@ -21,6 +21,7 @@ btn.addEventListener("click" , ()=>{
     .then(json => {
         output.innerText = json.contents.translated
     })
+    .catch(errorHandler)
 })
 
 
